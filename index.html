@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-zh="活得更好 · 一份拿来就能用的生活指南" data-en="Live Better · A field guide to living well">活得更好 · 一份拿来就能用的生活指南</title>
+<meta name="description" content="关于人生的意义、如何不白活、择偶婚姻、孩子教育、城市买房与养老的 20 章指南。中英双语、白天夜晚双主题，每条建议都能今天就用。">
+<link rel="canonical" href="https://we-live-better.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="活得更好 · Live Better">
+<meta property="og:title" content="活得更好 · 一份拿来就能用的生活指南">
+<meta property="og:description" content="二十章关于意义、身体、时间、钱、关系、孩子与养老的指南，中英双语，每条建议都能今天就用。">
+<meta property="og:url" content="https://we-live-better.github.io/">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#faf6ef">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%23bd5734'/><circle cx='50' cy='62' r='22' fill='%23f8e3c8'/><path d='M14 74h72v14H14z' fill='%23e9a25c'/></svg>">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+<a class="skip-link" href="#chapters" data-zh="跳到正文" data-en="Skip to content">跳到正文</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="13" r="4.2"/><path d="M12 2.5v2.6M4.2 6.6l1.9 1.9M19.8 6.6l-1.9 1.9M2.5 13h2.6M18.9 13h2.6M3 20.5h18"/>
+        </svg>
+      </span>
+      <span class="brand__text">
+        <span class="brand__name" data-zh="活得更好" data-en="Live Better">活得更好</span>
+        <span class="brand__sub" data-brand-sub>Live better</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html" data-zh="首页" data-en="Home">首页</a>
+      <a href="#chapters" data-zh="目录" data-en="Chapters">目录</a>
+      <a href="sources.html" data-zh="参考来源" data-en="Sources">参考来源</a>
+      <a href="read.html?c=meaning" data-zh="开始阅读" data-en="Start reading">开始阅读</a>
+    </nav>
+
+    <div class="tools">
+      <div class="lang-switch" role="group" aria-label="语言 / Language">
+        <button type="button" data-lang-btn="zh" aria-pressed="true">中</button>
+        <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <button type="button" class="icon-btn" data-theme-toggle aria-label="切换主题">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.5 5.5l1.4 1.4M17.1 17.1l1.4 1.4M18.5 5.5l-1.4 1.4M6.9 17.1l-1.4 1.4"/></svg>
+      </button>
+      <button type="button" class="icon-btn menu-btn" data-open-drawer aria-expanded="false" aria-label="打开章节目录">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" data-drawer>
+  <div class="drawer__overlay" data-close-drawer></div>
+  <aside class="drawer__panel" aria-label="章节目录">
+    <div class="drawer__head">
+      <strong data-zh="全部章节" data-en="All chapters">全部章节</strong>
+      <button type="button" class="icon-btn" data-close-drawer aria-label="关闭">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav data-drawer-nav></nav>
+  </aside>
+</div>
+
+<main>
+  <!-- ------------------------------- hero -------------------------------- -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <span class="eyebrow"><span class="eyebrow__dot"></span>
+            <span data-zh="20 章 · 中英双语 · 免费" data-en="20 chapters · bilingual · free">20 章 · 中英双语 · 免费</span>
+          </span>
+          <h1 data-zh="活得更好，<br>从一件<span class='hl'>小事</span>开始。" data-en="Live better,<br>starting with <span class='hl'>one small thing</span>.">活得更好，<br>从一件<span class="hl">小事</span>开始。</h1>
+          <p class="lede" data-zh="这份指南不劝你自律，也不承诺逆袭。它只回答三个问题：人这一生到底在图什么、怎样才算没白活、以及——明天早上起床以后，具体做什么。" data-en="This guide won't lecture you about discipline or promise a transformation. It answers three questions: what we are actually after, what makes a life feel worth it, and what to do tomorrow morning.">
+            这份指南不劝你自律，也不承诺逆袭。它只回答三个问题：人这一生到底在图什么、怎样才算没白活、以及——明天早上起床以后，具体做什么。
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="read.html?c=meaning">
+              <span data-zh="从第一章读起" data-en="Start with chapter 1">从第一章读起</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#chapters" data-zh="先看目录" data-en="Browse chapters">先看目录</a>
+          </div>
+          <div class="hero__note">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 6.5"/></svg><span data-zh="不用一次读完" data-en="No need to read it all at once">不用一次读完</span></span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 6.5"/></svg><span data-zh="只挑今天能用的一条" data-en="Pick one thing for today">只挑今天能用的一条</span></span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 6.5"/></svg><span data-zh="需要时回来查" data-en="Come back when you need it">需要时回来查</span></span>
+          </div>
+        </div>
+
+        <div class="hero__art" aria-hidden="true">
+          <svg viewBox="0 0 600 460" role="img" aria-label="日出、山丘和一个坐着看远方的人">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0.2" y2="1">
+                <stop offset="0%" stop-color="#fdf3e3"/>
+                <stop offset="46%" stop-color="#f8e2c6"/>
+                <stop offset="100%" stop-color="#f1cda9"/>
+              </linearGradient>
+              <linearGradient id="hillBack" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#cfd9bb"/>
+                <stop offset="100%" stop-color="#bcc9a8"/>
+              </linearGradient>
+              <linearGradient id="hillMid" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#a7bd93"/>
+                <stop offset="100%" stop-color="#8ea87e"/>
+              </linearGradient>
+              <linearGradient id="hillFront" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#7c9a75"/>
+                <stop offset="100%" stop-color="#5f8169"/>
+              </linearGradient>
+              <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+                <stop offset="0%" stop-color="#f2b374" stop-opacity="0.55"/>
+                <stop offset="100%" stop-color="#f2b374" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+
+            <rect width="600" height="460" fill="url(#sky)"/>
+            <circle cx="404" cy="152" r="140" fill="url(#sunGlow)"/>
+            <circle cx="404" cy="152" r="56" fill="#eda963"/>
+            <circle cx="404" cy="152" r="56" fill="none" stroke="#e29a52" stroke-opacity="0.5" stroke-width="1"/>
+
+            <g stroke="#8f7a5e" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round" fill="none">
+              <path d="M120 118c6-6 12-6 18 0 6-6 12-6 18 0"/>
+              <path d="M172 96c5-5 10-5 15 0 5-5 10-5 15 0"/>
+              <path d="M262 136c4-4 8-4 12 0 4-4 8-4 12 0"/>
+            </g>
+
+            <g fill="#ffffff" opacity="0.42">
+              <ellipse cx="150" cy="188" rx="58" ry="15"/>
+              <ellipse cx="196" cy="180" rx="40" ry="12"/>
+              <ellipse cx="470" cy="216" rx="52" ry="13"/>
+            </g>
+
+            <path d="M0 292c74-26 128-46 196-30 70 16 96 44 168 26 60-15 96-42 152-24 34 11 60 12 84 6v190H0z" fill="url(#hillBack)"/>
+            <path d="M0 348c86-42 152-48 226-24 72 24 112 18 174-10 70-32 128-18 200 22v124H0z" fill="url(#hillMid)"/>
+            <path d="M0 404c104-44 190-50 284-24 78 22 150 14 220-14 46-19 74-16 96-6v100H0z" fill="url(#hillFront)"/>
+
+            <!-- figure sitting on the crest -->
+            <g transform="translate(318 322)">
+              <ellipse cx="10" cy="62" rx="30" ry="6" fill="#2f2a20" opacity="0.12"/>
+              <circle cx="10" cy="10" r="9.5" fill="#3a3226"/>
+              <path d="M10 20c-9 0-15 8-16 20-1 8 1 14 3 18h26c2-4 4-10 3-18-1-12-7-20-16-20z" fill="#3a3226"/>
+              <path d="M-4 58h30" stroke="#3a3226" stroke-width="6" stroke-linecap="round"/>
+            </g>
+
+            <g stroke="#3f5b45" stroke-width="2" stroke-linecap="round" opacity="0.55">
+              <path d="M96 428c2-12 3-20 6-30M112 432c1-9 4-16 8-24M168 440c2-10 3-16 6-24"/>
+              <path d="M476 430c-1-10-2-18-5-26M500 438c0-9-2-16-5-22"/>
+            </g>
+
+            <g fill="#f7e7cf" opacity="0.85">
+              <circle cx="86" cy="248" r="3"/>
+              <circle cx="140" cy="262" r="2.2"/>
+              <circle cx="330" cy="228" r="2.6"/>
+              <circle cx="494" cy="272" r="2.4"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat"><div class="stat__value">20</div><div class="stat__label" data-zh="章，从人生的意义到三十天行动" data-en="chapters, from meaning to a 30-day plan">章，从人生的意义到三十天行动</div></div>
+        <div class="stat"><div class="stat__value">130+</div><div class="stat__label" data-zh="条具体做法，看完就能照做" data-en="concrete actions you can start today">条具体做法，看完就能照做</div></div>
+        <div class="stat"><div class="stat__value">2</div><div class="stat__label" data-zh="种语言、两套主题，随心切换" data-en="languages, two themes, one click">种语言、两套主题，随心切换</div></div>
+        <div class="stat"><div class="stat__value">0</div><div class="stat__label" data-zh="门槛：不用注册，没有术语墙" data-en="barriers: no sign-up, no jargon">门槛：不用注册，没有术语墙</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ------------------------------ chapters ----------------------------- -->
+  <section class="section" id="chapters">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <h2 data-zh="全书目录" data-en="Contents">全书目录</h2>
+          <p data-zh="六组主题、二十章。可以顺着读，也可以只挑眼下最疼的那一章。" data-en="Twenty chapters in six groups. Read straight through, or jump to whatever hurts right now.">
+            六组主题、二十章。可以顺着读，也可以只挑眼下最疼的那一章。
+          </p>
+        </div>
+        <div class="search-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" data-chapter-search data-ph-zh="搜索章节…" data-ph-en="Search chapters…" data-aria-zh="搜索章节" data-aria-en="Search chapters" placeholder="搜索章节…" aria-label="搜索章节">
+        </div>
+      </div>
+
+      <div class="chapter-grid" data-chapter-grid></div>
+    </div>
+  </section>
+
+  <!-- ------------------------------ leverage ----------------------------- -->
+  <section class="section" id="leverage">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <h2 data-zh="如果只做七件事" data-en="If you only do seven things">如果只做七件事</h2>
+          <p data-zh="从全书里挑出的高杠杆动作：不花钱、不需要天赋，回报却落在寿命、精力或关系上。" data-en="The highest-leverage moves in the book: free, talent-optional, and they pay back in years, energy or people.">
+            从全书里挑出的高杠杆动作：不花钱、不需要天赋，回报却落在寿命、精力或关系上。
+          </p>
+        </div>
+        <a class="section__link" href="read.html?c=health">
+          <span data-zh="为什么是这七件" data-en="Why these seven">为什么是这七件</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="leverage">
+        <ol class="ledger">
+          <li><span class="ledger__idx">01</span><div>
+            <strong data-zh="先睡够，再谈自律" data-en="Sleep first, discipline later">先睡够，再谈自律</strong>
+            <span data-zh="每天固定时间起床，睡 7–9 小时。睡眠不足时，意志力、情绪和判断力一起掉线，别在这上面考验人性。" data-en="Wake at the same time, sleep 7–9 hours. When sleep is short, willpower, mood and judgement all fail together — don't test yourself there.">每天固定时间起床，睡 7–9 小时。睡眠不足时，意志力、情绪和判断力一起掉线，别在这上面考验人性。</span>
+          </div></li>
+          <li><span class="ledger__idx">02</span><div>
+            <strong data-zh="把运动拆成每天 20 分钟" data-en="Shrink exercise to 20 minutes a day">把运动拆成每天 20 分钟</strong>
+            <span data-zh="每周 150 分钟中等强度活动，拆开就是每天 20 分钟快走。不需要健身房，不需要换衣服，出门就行。" data-en="150 minutes of moderate activity a week is 20 minutes of brisk walking a day. No gym, no kit, just the door.">每周 150 分钟中等强度活动，拆开就是每天 20 分钟快走。不需要健身房，不需要换衣服，出门就行。</span>
+          </div></li>
+          <li><span class="ledger__idx">03</span><div>
+            <strong data-zh="把“以后”改成本周的一个具体时间" data-en="Turn “someday” into a time this week">把“以后”改成本周的一个具体时间</strong>
+            <span data-zh="“有空聚”“以后学”永远不会发生。写成“周四 19:00，楼下那家店”，执行率立刻翻倍。" data-en="“Someday” never arrives. Write “Thursday 19:00, that place downstairs” and follow-through roughly doubles.">“有空聚”“以后学”永远不会发生。写成“周四 19:00，楼下那家店”，执行率立刻翻倍。</span>
+          </div></li>
+          <li><span class="ledger__idx">04</span><div>
+            <strong data-zh="每周认真见一次人" data-en="See one person properly each week">每周认真见一次人</strong>
+            <span data-zh="八十五年的哈佛研究反复指向同一个答案：关系质量比胆固醇更能预测晚年是否健康。" data-en="The 85-year Harvard study keeps pointing at the same answer: relationship quality predicts late-life health better than cholesterol.">八十五年的哈佛研究反复指向同一个答案：关系质量比胆固醇更能预测晚年是否健康。</span>
+          </div></li>
+          <li><span class="ledger__idx">05</span><div>
+            <strong data-zh="每天写下三行，不再过滤自己" data-en="Write three lines a day, unfiltered">每天写下三行，不再过滤自己</strong>
+            <span data-zh="一件做成的事、一件感谢的事、一件明天要做的事。三分钟，比刷一小时手机更让人踏实。" data-en="One thing done, one thing you're grateful for, one thing for tomorrow. Three minutes beats an hour of scrolling.">一件做成的事、一件感谢的事、一件明天要做的事。三分钟，比刷一小时手机更让人踏实。</span>
+          </div></li>
+          <li><span class="ledger__idx">06</span><div>
+            <strong data-zh="攒下三到六个月的“不慌钱”" data-en="Build a three-to-six month buffer">攒下三到六个月的“不慌钱”</strong>
+            <span data-zh="这笔钱放活期或货币基金，专门对付失业、生病、突然搬家。它的回报不是利息，是睡得着。" data-en="Keep it liquid, earmarked for job loss, illness or a sudden move. The return isn't interest — it's sleep.">这笔钱放活期或货币基金，专门对付失业、生病、突然搬家。它的回报不是利息，是睡得着。</span>
+          </div></li>
+          <li><span class="ledger__idx">07</span><div>
+            <strong data-zh="学会两件救命的事" data-en="Learn the two things that save lives">学会两件救命的事</strong>
+            <span data-zh="心肺复苏和海姆立克法，各花十分钟就能学会；八成的心脏骤停发生在家里，你救的第一人大概率是家人。" data-en="CPR and the Heimlich manoeuvre take ten minutes each to learn. Four in five cardiac arrests happen at home — your first rescue is probably family.">心肺复苏和海姆立克法，各花十分钟就能学会；八成的心脏骤停发生在家里，你救的第一人大概率是家人。</span>
+          </div></li>
+        </ol>
+
+        <aside class="leverage__aside reveal">
+          <h3 data-zh="一个小提醒" data-en="A small reminder">一个小提醒</h3>
+          <p data-zh="看到这里就想全做，通常一条也做不成。挑一条，做到下周三，再回来挑第二条。" data-en="Wanting to do all seven usually means doing none. Pick one, keep it until next Wednesday, then come back for the second.">
+            看到这里就想全做，通常一条也做不成。挑一条，做到下周三，再回来挑第二条。
+          </p>
+          <div class="mini-ring"><span data-zh="1" data-en="1">1</span><small data-zh="次只改一件" data-en="change at a time">次只改一件</small></div>
+          <div class="mini-bars">
+            <div>
+              <div class="mini-bar__head"><span data-zh="只读不做的记忆留存" data-en="Read only">只读不做的记忆留存</span><b>10%</b></div>
+              <div class="mini-bar__track"><div class="mini-bar__fill" style="width:10%"></div></div>
+            </div>
+            <div>
+              <div class="mini-bar__head"><span data-zh="写下来并定好时间" data-en="Write it down with a time">写下来并定好时间</span><b>60%</b></div>
+              <div class="mini-bar__track"><div class="mini-bar__fill" style="width:60%"></div></div>
+            </div>
+            <div>
+              <div class="mini-bar__head"><span data-zh="做完后讲给别人听" data-en="Explain it to someone">做完后讲给别人听</span><b>90%</b></div>
+              <div class="mini-bar__track"><div class="mini-bar__fill" style="width:90%"></div></div>
+            </div>
+          </div>
+          <p class="figure__cap" data-zh="学习金字塔是经验性总结，具体数字有争议；但“说出来比只读一遍记得牢”这个方向是可靠的。" data-en="The “learning pyramid” is a rule of thumb with contested numbers, but the direction — explaining beats re-reading — holds up.">
+            学习金字塔是经验性总结，具体数字有争议；但“说出来比只读一遍记得牢”这个方向是可靠的。
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- -------------------------------- quote ------------------------------ -->
+  <section class="quote-band">
+    <div class="wrap">
+      <blockquote>
+        <p data-zh="“人生不是一道要答对的题，而是一段要过完的时间。你不需要活得正确，只需要活得是自己的。”" data-en="“Life is not a test to pass. It is time to spend. You don't have to live correctly — only to live your own.”">“人生不是一道要答对的题，而是一段要过完的时间。你不需要活得正确，只需要活得是自己的。”</p>
+        <cite data-zh="—— 写给正在读这句话的你" data-en="— for whoever is reading this">—— 写给正在读这句话的你</cite>
+      </blockquote>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <p data-zh="<strong>活得更好</strong>是一份免费的开放生活指南。内容整理自公开研究与大量普通人的真实经验，用尽量少的术语讲清楚：什么样的小事，能让日子真的变好一点。" data-en="<strong>Live Better</strong> is a free, open guide. It gathers public research and the hard-won experience of ordinary people, and explains — with as little jargon as possible — which small things actually make a life better."><strong>活得更好</strong>是一份免费的开放生活指南。内容整理自公开研究与大量普通人的真实经验，用尽量少的术语讲清楚：什么样的小事，能让日子真的变好一点。</p>
+      </div>
+      <div class="footer__links">
+        <a href="read.html?c=meaning" data-zh="开始阅读" data-en="Start reading">开始阅读</a>
+        <a href="#chapters" data-zh="目录" data-en="Contents">目录</a>
+        <a href="sources.html" data-zh="参考来源" data-en="Sources">参考来源</a>
+      </div>
+    </div>
+    <p class="footer__note" data-zh="内容为生活经验与公开研究的通俗整理，不构成医疗、法律或财务建议。身体和法律上的具体决定，请以医生、律师和当地规定为准。" data-en="This is a plain-language digest of lived experience and public research, not medical, legal or financial advice. For real decisions, follow your doctor, lawyer and local rules.">
+      内容为生活经验与公开研究的通俗整理，不构成医疗、法律或财务建议。身体和法律上的具体决定，请以医生、律师和当地规定为准。
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/content-1.js"></script>
+<script src="assets/js/content-2.js"></script>
+<script src="assets/js/content-3.js"></script>
+<script src="assets/js/content-4.js"></script>
+<script src="assets/js/content-5.js"></script>
+<script src="assets/js/content-6.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

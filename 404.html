@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>404 · 这一页还没写 · Live Better</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#faf6ef">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%23bd5734'/><circle cx='50' cy='62' r='22' fill='%23f8e3c8'/><path d='M14 74h72v14H14z' fill='%23e9a25c'/></svg>">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script>
+/* GitHub serves 404.html under an arbitrary URL, so this page uses root-absolute
+   paths and carries its own theme bootstrap instead of loading app.js. */
+(function () {
+  try {
+    var t = localStorage.getItem("lb-theme");
+    if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.setAttribute("data-theme", t);
+    if (localStorage.getItem("lb-lang") === "en") document.documentElement.setAttribute("data-lang", "en");
+  } catch (e) {}
+})();
+</script>
+<style>
+  .notfound {
+    min-height: 78vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 72px 24px;
+  }
+  .notfound__code {
+    font-family: var(--font-mono);
+    font-size: clamp(56px, 12vw, 104px);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--accent);
+    opacity: 0.18;
+    letter-spacing: -0.04em;
+  }
+  .notfound h1 {
+    font-size: clamp(24px, 4.6vw, 38px);
+    line-height: 1.35;
+    margin: 10px 0 6px;
+  }
+  .notfound__en {
+    font-size: 16px;
+    color: var(--muted);
+    margin: 0 0 22px;
+  }
+  .notfound p {
+    max-width: 48ch;
+    margin: 0 auto 10px;
+    color: var(--ink-2);
+    line-height: 1.85;
+    font-size: 15.5px;
+  }
+  .notfound__links {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+  .notfound__links a {
+    display: inline-block;
+    padding: 11px 20px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 14.5px;
+    background: var(--surface);
+  }
+  .notfound__links a:hover { border-color: var(--accent); color: var(--accent); }
+  .notfound__lang { margin-top: 20px; font-size: 13px; color: var(--muted); }
+  .notfound__lang a { color: var(--muted); }
+</style>
+</head>
+<body>
+<main class="notfound">
+  <div>
+    <div class="notfound__code">404</div>
+    <h1>这一页还没写。</h1>
+    <p class="notfound__en">This page hasn't been written yet.</p>
+    <p>地址可能输错了，或者你点开的链接来自旧版本。全书一共二十章，从目录里挑一章开始就好。</p>
+    <p style="color: var(--muted); font-size: 14px;">The link may be mistyped, or from an older version of the site. There are twenty chapters in total — pick one from the contents page.</p>
+    <nav class="notfound__links">
+      <a href="/index.html">回到首页 · Home</a>
+      <a href="/index.html#chapters">全书目录 · Contents</a>
+      <a href="/read.html?c=action">直接去做 · Take action</a>
+      <a href="/sources.html">参考来源 · Sources</a>
+    </nav>
+    <p class="notfound__lang">语言不影响内容本身：<a href="/index.html">中文</a> / <a href="/index.html">English</a>（进入后点右上角切换）</p>
+  </div>
+</main>
+</body>
+</html>
